@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: bo;
+}
+
+.myBlogContainer
+{
+    height: 600px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.masterContainerMyBlog
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+.titleMyBlogs
+{
+    height: 200px;
+    width: 600px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.postTextBlog
+{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+}
